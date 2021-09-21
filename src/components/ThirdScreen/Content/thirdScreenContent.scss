@@ -1,0 +1,118 @@
+@media (width: 1024px) {
+  .bottle {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 233px;
+    height: 689px;
+    z-index: 5;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .content-background {
+    background-color: transparent;
+    width: 1024px;
+    height: 768px;
+    padding: 121px 60px 60px 141px;
+    position: relative;
+  }
+  .content {
+    width: 823px;
+    height: 573px;
+    padding-right: 132px;
+    padding-bottom: 15px;
+    padding-top: 62px;
+    padding-left: 120px;
+
+    &__header {
+      padding-left: 113px;
+      &-subtitle {
+        color: #242424;
+        font-size: 27px;
+        text-transform: uppercase;
+        font-family: "DIN Pro";
+        font-weight: 400;
+      }
+      &-title {
+        color: #242424;
+        font-size: 90px;
+        line-height: 100px;
+        font-family: "Gilroy";
+        font-weight: 400;
+        span {
+          font-family: "Gilroy";
+          font-weight: 900;
+        }
+      }
+    }
+    &__cards {
+      margin-top: 77px;
+      display: flex;
+      justify-content: space-between;
+      width: 742px;
+      height: 265px;
+      z-index: 1;
+      &-left {
+        position: relative;
+        padding: 54px 50px 43px 130px;
+        min-width: 414px;
+        height: 265px;
+        box-shadow: 3px 4px 116px 9px rgba(157, 185, 198, 0.39);
+        border-radius: 40px;
+        background-color: #ffffff;
+        font-size: 23px;
+        font-family: "DIN Pro";
+        font-weight: 400;
+        &:before {
+          content: "";
+          width: 68px;
+          height: 63px;
+          background: url("/src/img/screen_3/icon1.png") center center/cover;
+          position: absolute;
+          top: -33px;
+          left: 129px;
+        }
+      }
+      &-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_descr {
+          position: relative;
+          padding: 54px 39px 45px 44px;
+          width: 263px;
+          height: 150px;
+          box-shadow: 3px 4px 116px 9px rgba(157, 185, 198, 0.39);
+          border-radius: 40px;
+          background-color: #ffffff;
+          font-size: 23px;
+          font-family: "DIN Pro";
+          font-weight: 400;
+          &:before {
+            content: "";
+            width: 70px;
+            height: 58px;
+            background: url("/src/img/screen_3/icon2.png") center center/cover;
+            position: absolute;
+            top: -25px;
+            left: 40px;
+          }
+        }
+        &_button {
+          margin: 36px;
+          width: 289px;
+          height: 81px;
+          border: none;
+          cursor: pointer;
+          background: none;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

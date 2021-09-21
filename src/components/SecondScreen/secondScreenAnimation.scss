@@ -1,0 +1,265 @@
+.bubble_1 {
+  position: absolute;
+  top: 213px;
+  left: 2125px;
+  width: 34px;
+  height: 34px;
+  opacity: 0.88;
+  animation-name: bubble1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bubble_2 {
+  position: absolute;
+  top: 317px;
+  left: 2240px;
+  width: 113px;
+  height: 112px;
+  opacity: 0.93;
+  z-index: 3;
+  animation-name: bubble2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bubble_3 {
+  position: absolute;
+  top: 66px;
+  left: 2244px;
+  width: 37px;
+  height: 38px;
+  opacity: 0.93;
+  z-index: -1;
+  animation-name: bubble3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bubble_4 {
+  position: absolute;
+  top: 591px;
+  left: 2310px;
+  width: 62px;
+  height: 62px;
+  opacity: 0.93;
+  z-index: 4;
+  animation-name: bubble4;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bubble_5 {
+  position: absolute;
+  top: 155px;
+  left: 2233px;
+  width: 68px;
+  height: 69px;
+  opacity: 0.93;
+  z-index: 7;
+  animation-name: bubble5;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bubble_6 {
+  position: absolute;
+  top: 700px;
+  left: 2220px;
+  width: 143px;
+  height: 143px;
+  opacity: 0.93;
+  z-index: 7;
+  animation-name: bubble6;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.bubble_7 {
+  position: absolute;
+  top: 454px;
+  left: 2058px;
+  width: 33px;
+  height: 33px;
+  opacity: 0.93;
+  animation-name: bubble7;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 7;
+}
+
+.bubble_8 {
+  position: absolute;
+  top: 555px;
+  left: 2070px;
+  width: 75px;
+  height: 75px;
+  opacity: 0.93;
+  animation-name: bubble8;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 7;
+}
+
+@keyframes bubble1 {
+  0% {
+    top: 213px;
+    left: 2125px;
+  }
+  50% {
+    top: 253px;
+    left: 2145px;
+  }
+  100% {
+    top: 213px;
+    left: 2125px;
+  }
+}
+
+@keyframes bubble2 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bubble3 {
+  0% {
+    top: 80px;
+    left: 2270px;
+  }
+  50% {
+    top: 66px;
+    left: 2244px;
+  }
+  100% {
+    top: 80px;
+    left: 2270px;
+  }
+}
+
+@keyframes bubble4 {
+  0% {
+    top: 591px;
+    left: 2310px;
+  }
+  50% {
+    top: 585px;
+    left: 2284px;
+  }
+  100% {
+    top: 591px;
+    left: 2310px;
+  }
+}
+
+@keyframes bubble5 {
+  0% {
+    top: 155px;
+    left: 2233px;
+  }
+  15% {
+    top: 185px;
+    left: 2266px;
+  }
+  30% {
+    top: 155px;
+    left: 2233px;
+  }
+  45% {
+    top: 185px;
+    left: 2203px;
+  }
+  60% {
+    top: 205px;
+    left: 2173px;
+  }
+  75% {
+    top: 185px;
+    left: 2203px;
+  }
+  100% {
+    top: 155px;
+    left: 2233px;
+  }
+}
+@keyframes bubble6 {
+  0% {
+    top: 700px;
+    left: 2220px;
+  }
+  50% {
+    top: 665px;
+    left: 2200px;
+  }
+  100% {
+    top: 700px;
+    left: 2220px;
+  }
+}
+
+@keyframes bubble7 {
+  0% {
+    top: 454px;
+    left: 2058px;
+  }
+  50% {
+    top: 464px;
+    left: 2078px;
+  }
+  100% {
+    top: 454px;
+    left: 2058px;
+  }
+}
+
+@keyframes bubble8 {
+  0% {
+    transform: scale(1);
+    top: 555px;
+    left: 2070px;
+  }
+  15% {
+    transform: scale(1.1);
+    top: 550px;
+    left: 2065px;
+  }
+  30% {
+    transform: scale(1.2);
+    top: 545px;
+    left: 2070px;
+  }
+  45% {
+    transform: scale(1.3);
+    top: 540px;
+    left: 2075px;
+  }
+  60% {
+    transform: scale(1.2);
+    top: 545px;
+    left: 2070px;
+  }
+  75% {
+    transform: scale(1.1);
+    top: 550px;
+    left: 2065px;
+  }
+  100% {
+    transform: scale(1);
+    top: 555px;
+    left: 2070px;
+  }
+}

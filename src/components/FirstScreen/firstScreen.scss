@@ -1,0 +1,46 @@
+@media (width: 1024px) {
+  .firstScreen {
+    width: 1024px;
+    height: 768px;
+    padding-top: 169px;
+    padding-bottom: 213px;
+    padding-left: 75px;
+    padding-right: 41px;
+    &__title {
+      font-size: 27px;
+      text-transform: uppercase;
+      font-family: "DIN Pro";
+      font-weight: 400;
+    }
+    &__text {
+      span {
+        font-family: "Gilroy";
+        font-weight: 900;
+      }
+      position: relative;
+      padding: 0;
+      width: 913px;
+      margin-top: 37px;
+      font-family: "Gilroy";
+      font-weight: 300;
+      color: #171717;
+      font-size: 109px;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 120px;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    &__button {
+      margin-left: 26px;
+      border: none;
+      background: none;
+      width: 289px;
+      height: 81px;
+      &__img {
+        width: 289px;
+        height: 81px;
+      }
+    }
+  }
+}

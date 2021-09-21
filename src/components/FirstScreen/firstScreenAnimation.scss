@@ -1,0 +1,183 @@
+.sod_1 {
+  position: absolute;
+  top: 155px;
+  left: 430px;
+  width: 592px;
+  height: 93px;
+  z-index: 2;
+}
+.sod_2 {
+  position: absolute;
+
+  left: -130px;
+  bottom: -15px;
+  width: 414px;
+  height: 183px;
+}
+.sod_3 {
+  position: absolute;
+  top: 30px;
+  left: 916px;
+  width: 71px;
+  height: 69px;
+}
+.sod_4 {
+  position: absolute;
+  left: 350px;
+  bottom: 60px;
+  width: 85px;
+  height: 78px;
+}
+.sod_5 {
+  position: absolute;
+  top: 73px;
+  left: -86px;
+  width: 214px;
+  height: 116px;
+}
+
+.virus_1 {
+  position: absolute;
+  top: 642px;
+  left: 543px;
+  width: 228px;
+  height: 224px;
+  transform: scale(0.8);
+  animation-name: virus1;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.virus_2 {
+  z-index: 5;
+  position: absolute;
+  top: 201px;
+  left: 860px;
+  width: 111px;
+  height: 114px;
+  animation-name: virus2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.virus_3 {
+  position: absolute;
+  top: 62px;
+  left: 743px;
+  width: 63px;
+  height: 57px;
+  animation-name: virus3;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.virus_4 {
+  position: absolute;
+  top: 544px;
+  left: 40px;
+  width: 73px;
+  height: 71px;
+  animation-name: virus4;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes virus1 {
+  0% {
+    top: 642px;
+    left: 543px;
+    transform: scale(0.8);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    top: 620px;
+    left: 510px;
+    transform: scale(0.9);
+  }
+  100% {
+    top: 642px;
+    left: 543px;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes virus2 {
+  0% {
+    top: 200px;
+    left: 860px;
+  }
+  10% {
+    transform: rotate(45deg);
+    top: 185px;
+    left: 830px;
+  }
+  25% {
+    transform: rotate(90deg);
+    top: 170px;
+    left: 800px;
+  }
+  40% {
+    transform: rotate(135deg);
+    top: 155px;
+    left: 780px;
+  }
+  55% {
+    transform: rotate(180deg);
+    top: 150px;
+    left: 760px;
+  }
+  70% {
+    transform: rotate(245deg);
+    top: 155px;
+    left: 780px;
+  }
+  85% {
+    transform: rotate(290deg);
+    top: 170px;
+    left: 830px;
+  }
+  100% {
+    transform: rotate(360deg);
+    top: 200px;
+    left: 860px;
+  }
+}
+
+@keyframes virus3 {
+  0% {
+    top: 62px;
+    left: 743px;
+  }
+  35% {
+    transform: scale(1.05);
+    top: 70px;
+    left: 760px;
+  }
+  70% {
+    transform: scale(1.05);
+    top: 50px;
+    left: 730px;
+  }
+  100% {
+    transform: scale(1);
+    top: 62px;
+    left: 743px;
+  }
+}
+
+@keyframes virus4 {
+  0% {
+    top: 544px;
+    left: 40px;
+  }
+  50% {
+    top: 525px;
+    left: 20px;
+  }
+  100% {
+    top: 544px;
+    left: 40px;
+  }
+}
